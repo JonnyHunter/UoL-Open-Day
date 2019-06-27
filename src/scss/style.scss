@@ -5,14 +5,17 @@
     position:relative;
     width: 1392px;
 }
-.openday-section1 {
-    border-bottom: 10px solid $black-colour;
+
+.openday-section1,
+.openday-section2,
+.openday-section3,
+.openday-section4 {
+    border-bottom: 2px solid $black-colour;
 }
 .openday-image--intro {
     width: 1392px;
     height: 696px;
 }
-
 .openday-header {
     border-top: 77px solid $black-colour;
     background-color: $header-colour;
@@ -25,26 +28,24 @@
     font-size: 16px;
     font-family: FreightSansMediumSC;
     padding-left: 50px;
-
 }
 .openday-book-link {
     position: absolute;
     top: 77px;
     left: 1100px;
-    padding: 9px;
+    padding: 10px;
     background-color: $link-colour;
     color: $white-colour;
 }
 .openday-title--intro {
-    font-family:FreightSansProSemibold;
+    font-family:FreightSansProSemi;
     font-size: 72px;
-    font-weight: 300;
     display: inline-block;
     padding-bottom: 5px;
     position: relative;
     margin: 0;
+    text-transform: uppercase;
 }
-
 .openday-title--intro:before {
         content: "";
         position: absolute;
@@ -56,11 +57,15 @@
 .openday-dates {
     color: $dates-colour;
     list-style-type: none;
+    text-transform: uppercase;
+    li{
+        margin: 10px 0;
+      }
 }
 .openday-content--intro {
     position: absolute;
     left: 600px;
-    top: 1000px;
+    top: 1140px;
     font-size: 20px;
     width: 50%;
 

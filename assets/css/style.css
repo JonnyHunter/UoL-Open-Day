@@ -3,8 +3,11 @@
   position: relative;
   width: 1392px; }
 
-.openday-section1 {
-  border-bottom: 10px solid #111; }
+.openday-section1,
+.openday-section2,
+.openday-section3,
+.openday-section4 {
+  border-bottom: 2px solid #111; }
 
 .openday-image--intro {
   width: 1392px;
@@ -27,18 +30,18 @@
   position: absolute;
   top: 77px;
   left: 1100px;
-  padding: 9px;
+  padding: 10px;
   background-color: #76777b;
   color: #fff; }
 
 .openday-title--intro {
-  font-family: FreightSansProSemibold;
+  font-family: FreightSansProSemi;
   font-size: 72px;
-  font-weight: 300;
   display: inline-block;
   padding-bottom: 5px;
   position: relative;
-  margin: 0; }
+  margin: 0;
+  text-transform: uppercase; }
 
 .openday-title--intro:before {
   content: "";
@@ -50,12 +53,15 @@
 
 .openday-dates {
   color: #343436;
-  list-style-type: none; }
+  list-style-type: none;
+  text-transform: uppercase; }
+  .openday-dates li {
+    margin: 10px 0; }
 
 .openday-content--intro {
   position: absolute;
   left: 600px;
-  top: 1000px;
+  top: 1140px;
   font-size: 20px;
   width: 50%; }
   .openday-content--intro p:first-child {
