@@ -1,13 +1,28 @@
+//multiuse
 $white-colour: #fff; //tile text, background
-$dark-colour: #111; //header at the top
+$dark-colour: #4d4e50; //header at the top
 $dark-grey: #343436;//dates ,first paragraph text, brackets,under sub headings & subheadings,darker-tile
 $medium-grey: #4d4e50; //header-background, medium-tile
-$light-grey: #76777b; //lighter tile 
-$lightest-grey: #9b9b9b; //lightest tile
 
+
+//single use
 $quote-colour: #979797;
 $video-caption-colour: #d8d8d8;
-$small-text-colour: #4a4a4a
+$small-text-colour: #4a4a4a;
+$light-tile1: #76777b;
+$light-tile2: #9b9b9b;
+
+
+//assigning multi use colours
+$tile-text-colour: $white-colour;
+$header-colour: $dark-colour;
+$dates-colour: $dark-grey; 
+$intro-text-colour: $dark-grey;
+$brackets-colour: $dark-grey;
+$subheading-colour: $dark-grey;
+$dark-tile-colour: $dark-grey;
+$medium-tile-colour: $medium-grey;
+
 
 
 
