@@ -81,7 +81,7 @@ h3.openday-title--quote{
 
         position: relative;
         width: 314px;
-        border: solid 12px #979797;
+        border: solid 12px $quote-colour;
         padding: 36px;
         
         &:before,
@@ -99,7 +99,7 @@ h3.openday-title--quote{
         
         &:before {
           bottom: -55px;
-          border-top-color: #979797
+          border-top-color: $quote-colour;
         }
         
         &:after {
@@ -127,3 +127,17 @@ h3.openday-title--quote{
           z-index: -1;
         }
       }
+      
+      .tile1{
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 550px;
+            height: 275px;
+            background: $light-tile1;
+      }
+    }
+   .openday-content--tile{
+        
+    }

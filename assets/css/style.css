@@ -105,3 +105,11 @@ h3.openday-title--quote {
     left: 20px;
     right: 20px;
     z-index: -1; }
+
+.tile1:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 550px;
+  height: 275px;
+  background: #76777b; }
