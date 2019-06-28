@@ -66,3 +66,42 @@
   width: 50%; }
   .openday-content--intro p:first-child {
     font-size: 24px; }
+
+h3.openday-title--quote {
+  position: relative;
+  width: 314px;
+  border: solid 12px #979797;
+  padding: 36px; }
+  h3.openday-title--quote:before, h3.openday-title--quote:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 64px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 55px solid; }
+  h3.openday-title--quote:before {
+    bottom: -55px;
+    border-top-color: #979797; }
+  h3.openday-title--quote:after {
+    bottom: -35px;
+    border-top-color: #fff; }
+
+.openday-rectangle-quote {
+  position: relative;
+  width: 289px;
+  border: solid 12px #000;
+  padding: 36px;
+  z-index: 0; }
+  .openday-rectangle-quote:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: white;
+    top: -12px;
+    bottom: -12px;
+    left: 20px;
+    right: 20px;
+    z-index: -1; }

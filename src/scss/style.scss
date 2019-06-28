@@ -76,3 +76,54 @@
 .openday-video-section{
     
 }
+//Styling of pull quotes
+h3.openday-title--quote{
+
+        position: relative;
+        width: 314px;
+        border: solid 12px #979797;
+        padding: 36px;
+        
+        &:before,
+        &:after{
+          content: '';
+          display: block;
+          position: absolute;
+          left: 64px;
+          width: 0;
+          height: 0;
+          border-left: 40px solid transparent;
+          border-right: 40px solid transparent;
+          border-top: 55px solid;
+        }
+        
+        &:before {
+          bottom: -55px;
+          border-top-color: #979797
+        }
+        
+        &:after {
+          bottom: -35px;
+          border-top-color: #fff;
+        }
+      }
+      //Styling of brackets quote
+      .openday-rectangle-quote {
+        position: relative;
+        width: 289px;
+        border: solid 12px #000;
+        padding: 36px;
+        z-index: 0;
+        
+        &:before{
+          content: '';
+          display: block;
+          position: absolute;
+          background: white;
+          top: -12px;
+          bottom: -12px;
+          left: 20px;
+          right: 20px;
+          z-index: -1;
+        }
+      }
