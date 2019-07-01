@@ -21,7 +21,7 @@
     background-color: $header-colour;
     padding: 0;
 }
-.openday-title--main{
+.openday-title--main {
     margin: 0;
     padding: 10px;
     color: $white-colour;
@@ -73,11 +73,11 @@
         font-size:24px;
       }
 }
-.openday-video-section{
+.openday-video-section {
     
 }
 //Styling of pull quotes
-h3.openday-title--quote{
+h3.openday-title--quote {
 
         position: relative;
         width: 314px;
@@ -115,7 +115,7 @@ h3.openday-title--quote{
         padding: 36px;
         z-index: 0;
         
-        &:before{
+        &:before { 
           content: '';
           display: block;
           position: absolute;
@@ -128,7 +128,7 @@ h3.openday-title--quote{
         }
       }
       
-      .tile1{
+      .tile1 {
         &:before{
             content: '';
             display: block;
@@ -138,6 +138,6 @@ h3.openday-title--quote{
             background: $light-tile1;
       }
     }
-   .openday-content--tile{
+   .openday-content--tile {
         
     }
