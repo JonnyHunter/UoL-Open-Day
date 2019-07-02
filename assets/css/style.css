@@ -1,27 +1,53 @@
-.openday-content {
+header {
+  position: relative;
+  display: block;
+  width: 1392px;
+  height: 48px;
+  background-color: #4d4e50; }
+  header h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    display: inline; }
+  header .navigation {
+    position: relative;
+    height: 48px;
+    bottom: 43px;
+    left: 80%;
+    width: 190px; }
+  header ul {
+    list-style-type: none;
+    background-color: #76777b;
+    height: 48px; }
+
+main {
   background: #fff;
   position: relative;
-  width: 1392px; }
+  display: inline; }
 
 .openday-section1,
 .openday-section2,
 .openday-section3,
 .openday-section4 {
+  position: relative;
+  width: 1392px;
+  display: inline;
   border-bottom: 2px solid #111; }
 
 .openday-image--intro {
-  width: 1392px;
-  height: 696px; }
+  width: 1392px; }
 
-.openday-header {
-  border-top: 77px solid #111;
-  background-color: #4d4e50;
-  padding: 0; }
+.section1c1 {
+  width: 30%;
+  border: 2px solid green; }
+
+.section1c2 {
+  width: 50%;
+  border: 2px solid blue; }
 
 .openday-title--main {
   margin: 0;
   padding: 10px;
-  color: #fff;
   font-size: 16px;
   font-family: FreightSansMediumSC;
   padding-left: 50px; }
@@ -59,13 +85,19 @@
     margin: 10px 0; }
 
 .openday-content--intro {
-  position: absolute;
-  left: 600px;
-  top: 1140px;
+  position: relative;
+  left: 50%;
   font-size: 20px;
-  width: 50%; }
+  width: 50%;
+  padding-bottom: 2 px; }
   .openday-content--intro p:first-child {
     font-size: 24px; }
+
+.openday-video-container {
+  width: 60%;
+  height: auto;
+  position: relative;
+  left: 50%; }
 
 h3.openday-title--quote {
   position: relative;
@@ -113,3 +145,32 @@ h3.openday-title--quote {
   width: 550px;
   height: 275px;
   background: #76777b; }
+
+.section2c1 {
+  width: 30%;
+  border: 2px solid green; }
+
+.section2c2 {
+  width: 60%;
+  border: 2px solid blue; }
+
+.section3c1 {
+  width: 30%;
+  height: 60%;
+  border: 2px solid green; }
+
+.openday-content--widget {
+  width: 60%;
+  border: 2px solid blue; }
+
+.openday-content--tiles {
+  width: 80%;
+  border: 2px solid green; }
+
+.section4c1 {
+  width: 30%;
+  border: 2px solid green; }
+
+.section4c2 {
+  width: 60%;
+  border: 2px solid blue; }
