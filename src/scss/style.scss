@@ -1,11 +1,11 @@
 @import "components/colours";
 body{
- 
+ max-width: 1194px;
+ margin: 0 auto;
 }
 header {
   position: relative;
   display: block;
-  width: 1392px;
   height: 48px;
   background-color: $header-colour;
   h1{
@@ -33,32 +33,45 @@ header {
 main {
     background: $white-colour;
     position:relative;
-    display: inline; 
-}
-
-.openday-section1,
-.openday-section2,
-.openday-section3,
-.openday-section4 {
-    position: relative;
-    width: 1392px;
-    display: inline;
-    border-bottom: 2px solid $black-colour;
-}
-.openday-image--intro {
-    width: 1392px;
     
 }
-.section1c1 {
-  width: 30%;
-  border: 2px solid green;
-  
+
+.openday-section  {
+    position: relative;
+    overflow: auto;
+    border-bottom: 2px solid $black-colour;
 }
 
-.section1c2 {
-  width: 50%;
-  border: 2px solid blue;
+  .openday-section--intro {
+
+  }
+
+  .openday-section__column {
+    float: left;
+  }
+
+    .openday-section__column--1 {
+      width: 50%;
+      padding-left: 50px;git 
+
+      .openday-section--intro &  {
+        width: calc(100% / 3);
+        
+      }
+    }
+
+    .openday-section__column--2 {
+      width: 50%;
+
+      .openday-section--intro &  {
+        width: calc(100% / 3 * 2);
+      }
+    }
+
+.openday-image--intro {
+  width: 100%;
 }
+
 
 .openday-title--main {
     margin: 0;
@@ -96,27 +109,36 @@ main {
     color: $dates-colour;
     list-style-type: none;
     text-transform: uppercase;
+    padding-bottom: 100px;
     li{
         margin: 10px 0;
       }
 }
 .openday-content--intro {
-    position: relative;
-    left: 50%;
-    font-size: 20px;
-    width: 50%;
-    padding-bottom: 2 px;
-
+  padding-top: 35%;
     p:first-child{
-        font-size:24px;
+        font-size:24px;§
       }
 }
+//video styling
 .openday-video-container {
-    width: 60%;
-    height: auto;
-    position: relative;
-    left: 50%;
+  
+.openday-video {
+  height: 300px;
+  width: 100%;
 }
+figure {
+  margin: 0;
+}
+figcaption {
+  background-color: grey;
+  height: 20%;
+  padding-bottom: 10px;
+}
+width: 100%;
+
+}
+
 //Styling of pull quotes
 h3.openday-title--quote {
 
@@ -169,52 +191,90 @@ h3.openday-title--quote {
           z-index: -1;
         }
       }
+    
+    //section1
+
+
+    .section1c1 {
+      width: 30%;
+      float:left;
       
-      .tile1 {
-        &:before{
-            content: '';
-            display: block;
-            position: absolute;
-            width: 550px;
-            height: 275px;
-            background: $light-tile1;
-      }
+      border: 2px solid green;
     }
-   .openday-content--tile {
-      
+    
+    .section1c2 {
+      width: 50%;
+      float: left;
+
+      border: 2px solid blue;
     }
     //section2
     .section2c1 {  
       width: 30%;
+      float: left;
+
       border: 2px solid green;
     }
     .section2c2 {
       width: 60%;
+      float: left;
+
       border: 2px solid blue;
+      
+    }
+    //tiles
+    .section2tile1{
+      width: 550px;
+      height: 275px;
+      float: left;
+      background-color: $light-tile1;
+    }
+    .section2tile2{
+      width: 275px;
+      height: 275px;
+      background-color: $medium-tile-colour;
+      float: left;
+    }
+    .section2tile3{
+      width: 550px;
+      height: 275px;
+      float: left;
+      background-color: $dark-tile-colour;
     }
     //section3
     .section3c1 {
       width: 30%;
       height: 60%;
+      float: left;
+
       border: 2px solid green;
     }
     .openday-content--widget {
       width: 60%;
+      float: left;
+
       border: 2px solid blue;
     }
     .openday-content--tiles {
       width: 80%;
+      float: left;
+
+
       border: 2px solid green;
     }
 
     //section4
     .section4c1 {
       width: 30%;
+      float: left;
       border: 2px solid green;
     }
     .section4c2 {
       width: 60%;
+      float: left;
+
       border: 2px solid blue;
+      
     }
 
 
