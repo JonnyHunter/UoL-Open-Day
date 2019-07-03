@@ -49,7 +49,7 @@ main {
   .openday-section--intro {
 
   }
-
+ 
   .openday-section__column {
     float: left;
   }
@@ -97,20 +97,15 @@ main {
 }
 //BEM like naming for headings 
 .openday-title {
-
-}
-
-
-.openday-title--intro {
-    font-family:FreightSansProSemi;
-    font-size: 72px;
-    display: inline-block;
+  text-transform: uppercase;
+  font-size: 36px;
+  display: inline-block;
     padding-bottom: 5px;
     position: relative;
     margin: 0;
-    text-transform: uppercase;
 }
-.openday-title--intro:before {
+
+.openday-title:before {
         content: "";
         position: absolute;
         width: 15%;
@@ -119,9 +114,11 @@ main {
         border-bottom: 5px solid #000;
 }
 
-
-
-
+.openday-title--intro {
+    font-family:FreightSansProSemi;
+    font-size: 72px;
+    
+}
 
 .openday-dates {
     color: $dates-colour;

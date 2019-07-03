@@ -64,22 +64,25 @@ main {
   background-color: #76777b;
   color: #fff; }
 
-.openday-title--intro {
-  font-family: FreightSansProSemi;
-  font-size: 72px;
+.openday-title {
+  text-transform: uppercase;
+  font-size: 36px;
   display: inline-block;
   padding-bottom: 5px;
   position: relative;
-  margin: 0;
-  text-transform: uppercase; }
+  margin: 0; }
 
-.openday-title--intro:before {
+.openday-title:before {
   content: "";
   position: absolute;
   width: 15%;
   height: 1px;
   bottom: 0;
   border-bottom: 5px solid #000; }
+
+.openday-title--intro {
+  font-family: FreightSansProSemi;
+  font-size: 72px; }
 
 .openday-dates {
   color: #343436;
