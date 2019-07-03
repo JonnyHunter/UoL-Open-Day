@@ -70,7 +70,7 @@ main {
 
     .openday-section__column--2 {
       width: 75%;
-     
+      
       border: 1px solid lightgreen;
 
       .openday-section--intro &  {
@@ -160,6 +160,7 @@ h3.openday-title--quote {
         width: 250px;
         border: solid 12px $quote-colour;
         padding: 36px;
+        font-style: italic;
         
         &:before,
         &:after{
@@ -225,7 +226,19 @@ h3.openday-title--quote {
         z-index: -1;
   }
 }
-    
+
+figcaption{
+  background-color: $dark-grey;
+  color: $white-colour;
+  h3{
+    margin: 0;
+
+  }
+  p{
+    margin: 0;
+    padding-bottom: 11px;
+  }
+}
     
     .openday-content--tile{
       li{

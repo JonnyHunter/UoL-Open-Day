@@ -113,7 +113,8 @@ h3.openday-title--quote {
   position: relative;
   width: 250px;
   border: solid 12px #979797;
-  padding: 36px; }
+  padding: 36px;
+  font-style: italic; }
   h3.openday-title--quote:before, h3.openday-title--quote:after {
     content: '';
     display: block;
@@ -165,6 +166,15 @@ h3.openday-title--quote {
     left: 20px;
     right: 20px;
     z-index: -1; }
+
+figcaption {
+  background-color: #343436;
+  color: #fff; }
+  figcaption h3 {
+    margin: 0; }
+  figcaption p {
+    margin: 0;
+    padding-bottom: 11px; }
 
 .openday-content--tile li {
   list-style-type: none;
