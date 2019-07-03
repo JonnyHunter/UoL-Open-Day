@@ -52,19 +52,26 @@ main {
 
     .openday-section__column--1 {
       width: 50%;
-      padding-left: 50px;git 
+      padding-left: 50px; 
 
       .openday-section--intro &  {
         width: calc(100% / 3);
         
+
+        border: 1px solid red;
       }
     }
 
     .openday-section__column--2 {
       width: 50%;
+     
+      border: 1px solid lightgreen;
 
       .openday-section--intro &  {
-        width: calc(100% / 3 * 2);
+        width: calc(100% / 3 * 2)-12px;
+        
+        
+        border: 1px solid hotpink;
       }
     }
 
@@ -117,7 +124,7 @@ main {
 .openday-content--intro {
   padding-top: 35%;
     p:first-child{
-        font-size:24px;§
+        font-size: 24px;
       }
 }
 //video styling
