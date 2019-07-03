@@ -30,23 +30,26 @@ main {
 .openday-section {
   position: relative;
   overflow: auto;
-  border-bottom: 2px solid #111; }
+  border-bottom: 2px solid #111;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 2px solid purple; }
 
 .openday-section__column {
   float: left; }
 
 .openday-section__column--1 {
-  width: 50%;
-  padding-left: 50px; }
+  width: 20%;
+  border: 2px solid gold; }
   .openday-section--intro .openday-section__column--1 {
     width: calc(100% / 3);
-    border: 1px solid red; }
+    border: 1px solid blue; }
 
 .openday-section__column--2 {
-  width: 50%;
+  width: 75%;
   border: 1px solid lightgreen; }
   .openday-section--intro .openday-section__column--2 {
-    width: calc(100% / 3 * 2)-12px;
+    width: 60%;
     border: 1px solid hotpink; }
 
 .openday-image--intro {
@@ -111,7 +114,7 @@ main {
 
 h3.openday-title--quote {
   position: relative;
-  width: 314px;
+  width: 250px;
   border: solid 12px #979797;
   padding: 36px; }
   h3.openday-title--quote:before, h3.openday-title--quote:after {
@@ -148,26 +151,6 @@ h3.openday-title--quote {
     right: 20px;
     z-index: -1; }
 
-.section1c1 {
-  width: 30%;
-  float: left;
-  border: 2px solid green; }
-
-.section1c2 {
-  width: 50%;
-  float: left;
-  border: 2px solid blue; }
-
-.section2c1 {
-  width: 30%;
-  float: left;
-  border: 2px solid green; }
-
-.section2c2 {
-  width: 60%;
-  float: left;
-  border: 2px solid blue; }
-
 .section2tile1 {
   width: 550px;
   height: 275px;
@@ -185,29 +168,3 @@ h3.openday-title--quote {
   height: 275px;
   float: left;
   background-color: #343436; }
-
-.section3c1 {
-  width: 30%;
-  height: 60%;
-  float: left;
-  border: 2px solid green; }
-
-.openday-content--widget {
-  width: 60%;
-  float: left;
-  border: 2px solid blue; }
-
-.openday-content--tiles {
-  width: 80%;
-  float: left;
-  border: 2px solid green; }
-
-.section4c1 {
-  width: 30%;
-  float: left;
-  border: 2px solid green; }
-
-.section4c2 {
-  width: 60%;
-  float: left;
-  border: 2px solid blue; }
