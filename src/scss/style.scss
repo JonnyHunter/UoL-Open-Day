@@ -95,7 +95,7 @@ main {
     background-color: $link-colour;
     color: $white-colour;
 }
-//BEM like naming for headings 
+//BEM like naming for titles 
 .openday-title {
   text-transform: uppercase;
   font-size: 36px;
@@ -116,8 +116,7 @@ main {
 
 .openday-title--intro {
     font-family:FreightSansProSemi;
-    font-size: 72px;
-    
+    font-size: 64px;
 }
 
 .openday-dates {
@@ -153,7 +152,6 @@ figcaption {
 width: 100%;
 
 }
-//widget figure
 
 //Styling of pull quotes
 h3.openday-title--quote {
@@ -186,27 +184,47 @@ h3.openday-title--quote {
           border-top-color: #fff;
         }
       }
-      //Styling of brackets quote
-      .openday-rectangle-quote {
+//Styling of brackets quote
+.openday-rectangle-quote {
+  position: relative;
+  width: 220px;
+  border: solid 12px #000;
+  padding: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  z-index: 0;
+  height:auto;
+      h3{
+        font-size: 36px;
         position: relative;
-        width: 289px;
-        border: solid 12px #000;
-        padding: 36px;
-        z-index: 0;
-        
-        &:before { 
-          content: '';
-          display: block;
-          position: absolute;
-          background: white;
-          top: -12px;
-          bottom: -12px;
-          left: 20px;
-          right: 20px;
-
-          z-index: -1;
-        }
+        left: 25%;
+        padding: 0;
+        margin: 0;
       }
+      dt{
+        position: relative;
+        left:25%;
+        font-size: 24px;
+        font-style: italic;
+      }
+      dd{
+        position:relative;
+        right: 5%;
+        font-size: 16px;
+      }
+  
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        background: white;
+        top: -12px;
+        bottom: -12px;
+        left: 20px;
+        right: 20px;
+        z-index: -1;
+  }
+}
     
     
     .openday-content--tile{
@@ -215,7 +233,7 @@ h3.openday-title--quote {
         color: $white-colour;
       }
     }
-    //tiles
+    //secton 2 tiles
     .section2tile1 {
       width: 66%;
       height: 275px;
@@ -234,7 +252,7 @@ h3.openday-title--quote {
       float: right;
       background-color: $dark-tile-colour;
     }
-   //3 tiles
+   //section3 tiles
 
    .openday-content--tiles{
     float: left;
@@ -266,11 +284,12 @@ h3.openday-title--quote {
       }
     }
     //section4 tiles
+    
     .section4tile1{
       width: 400px;
       height: 200px;
       float: left;
-      background-color: $light-tile1;
+      background-color: $dark-colour;
     }
     .section4tile2,
     .section4tile3,
@@ -280,19 +299,19 @@ h3.openday-title--quote {
       width: 200px;
       height: 200px;
       float: left;
-      background-color: $light-tile1;
+      background-color: $dark-tile-colour;
     }
     .section4tile2{
       
     }
     .section4tile3{
-      
+      background-color: $light-tile1;
     }
     .section4tile4{
       
     }
     .section4tile5{
-      
+      background-color: $light-tile1;
   }
     
     

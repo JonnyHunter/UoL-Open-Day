@@ -82,7 +82,7 @@ main {
 
 .openday-title--intro {
   font-family: FreightSansProSemi;
-  font-size: 72px; }
+  font-size: 64px; }
 
 .openday-dates {
   color: #343436;
@@ -133,10 +133,28 @@ h3.openday-title--quote {
 
 .openday-rectangle-quote {
   position: relative;
-  width: 289px;
+  width: 220px;
   border: solid 12px #000;
-  padding: 36px;
-  z-index: 0; }
+  padding: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  z-index: 0;
+  height: auto; }
+  .openday-rectangle-quote h3 {
+    font-size: 36px;
+    position: relative;
+    left: 25%;
+    padding: 0;
+    margin: 0; }
+  .openday-rectangle-quote dt {
+    position: relative;
+    left: 25%;
+    font-size: 24px;
+    font-style: italic; }
+  .openday-rectangle-quote dd {
+    position: relative;
+    right: 5%;
+    font-size: 16px; }
   .openday-rectangle-quote:before {
     content: '';
     display: block;
@@ -200,7 +218,7 @@ h3.openday-title--quote {
   width: 400px;
   height: 200px;
   float: left;
-  background-color: #76777b; }
+  background-color: #4d4e50; }
 
 .section4tile2,
 .section4tile3,
@@ -209,4 +227,10 @@ h3.openday-title--quote {
   width: 200px;
   height: 200px;
   float: left;
+  background-color: #343436; }
+
+.section4tile3 {
+  background-color: #76777b; }
+
+.section4tile5 {
   background-color: #76777b; }
