@@ -70,7 +70,10 @@ main {
 
     .openday-section__column--2 {
       width: 75%;
-      
+      margin-top: 60px;
+      ul{
+        margin: 0;
+      }
       border: 1px solid lightgreen;
 
       .openday-section--intro &  {
@@ -298,32 +301,38 @@ figcaption{
     }
     //section4 tiles
     
-    .section4tile1{
+    .section4tile1 {
       width: 400px;
       height: 200px;
       float: left;
       background-color: $dark-colour;
+      margin-left: 40px;
+      p{
+        color: $white-colour;
+      }
+    }
+    ul {
+      list-style: none;
     }
     .section4tile2,
     .section4tile3,
     .section4tile4,
-    .section4tile5{
-
+    .section4tile5 {
       width: 200px;
       height: 200px;
       float: left;
       background-color: $dark-tile-colour;
     }
-    .section4tile2{
-      
+    .section4tile2 {
+     
     }
-    .section4tile3{
+    .section4tile3 {
       background-color: $light-tile1;
     }
-    .section4tile4{
+    .section4tile4 { 
       
     }
-    .section4tile5{
+    .section4tile5 {
       background-color: $light-tile1;
   }
     
