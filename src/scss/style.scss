@@ -72,9 +72,7 @@ main {
     .openday-section__column--2 {
       width: 75%;
       margin-top: 60px;
-      ul{
-        margin: 0;
-      }
+      margin-left: 20px;
       border: 1px solid lightgreen;
 
       .openday-section--intro &  {
@@ -89,7 +87,7 @@ main {
       width: 80%;
       height: auto;
       border: 2px solid #fff342;
-      margin-left: 24%;
+      margin-left: 15%;
     }
 
 .openday-image--intro {
@@ -291,7 +289,6 @@ figcaption{
       .openday-tile--rectangle {
         width: 400px; 
         height: 200px;
-
       }
 
       .openday-tile--lightgrey {

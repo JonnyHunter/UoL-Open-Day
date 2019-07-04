@@ -54,9 +54,8 @@ main {
 .openday-section__column--2 {
   width: 75%;
   margin-top: 60px;
+  margin-left: 20px;
   border: 1px solid lightgreen; }
-  .openday-section__column--2 ul {
-    margin: 0; }
   .openday-section--intro .openday-section__column--2 {
     width: 60%;
     border: 1px solid hotpink; }
@@ -66,7 +65,7 @@ main {
   width: 80%;
   height: auto;
   border: 2px solid #fff342;
-  margin-left: 24%; }
+  margin-left: 15%; }
 
 .openday-image--intro {
   width: 100%; }
