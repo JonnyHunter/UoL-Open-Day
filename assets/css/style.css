@@ -61,6 +61,13 @@ main {
     width: 60%;
     border: 1px solid hotpink; }
 
+.openday-section__row {
+  float: left;
+  width: 80%;
+  height: auto;
+  border: 2px solid #fff342;
+  margin-left: 24%; }
+
 .openday-image--intro {
   width: 100%; }
 
@@ -186,93 +193,6 @@ figcaption {
     margin: 0;
     padding-bottom: 11px; }
 
-/*
-    //secton 2 tiles
-    .section2tile1 {
-      width: 66%;
-      height: 275px;
-      float: left;
-      background-color: $light-tile1;
-    }
-    .section2tile2 {
-      width: 34%;
-      height: 275px;
-      background-color: $medium-tile-colour;
-      float: left;
-    }
-    .section2tile3 {
-      width: 550px;
-      height: 275px;
-      float: right;
-      background-color: $dark-tile-colour;
-    }
-   //section3 tiles
-
-   .openday-content--tiles{
-    float: left;
-    width: 100%;
-    height: auto;
-    border: 1px solid magenta;
-   }
-    .section3tile1 { 
-      width: 500px;
-      height: 200px;
-      float: left;
-      background-color: $dark-colour;
-    }
-    .section3tile2,
-    .section3tile3 {
-      width: 200px;
-      height: 200px;
-      float: left;
-      background-color: $light-tile1;
-
-    }
-    .section3tile3{
-      background-color: $dark-colour
-    }
-    .openday-content--tiles{
-      ul {
-        list-style-type: none;
-        color: white;
-      }
-    }
-    //section4 tiles
-    
-    .section4tile1 {
-      width: 400px;
-      height: 200px;
-      float: left;
-      background-color: $dark-colour;
-      margin-left: 40px;
-      p{
-        color: $white-colour;
-      }
-    }
-    ul {
-      list-style: none;
-    }
-    .section4tile2,
-    .section4tile3,
-    .section4tile4,
-    .section4tile5 {
-      width: 200px;
-      height: 200px;
-      float: left;
-      background-color: $dark-tile-colour;
-    }
-    .section4tile2 {
-     
-    }
-    .section4tile3 {
-      background-color: $light-tile1;
-    }
-    .section4tile4 { 
-      
-    }
-    .section4tile5 {
-      background-color: $light-tile1;
-  }*/
 .openday-tile {
   float: left; }
   .openday-tile p {
