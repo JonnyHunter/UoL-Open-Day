@@ -273,6 +273,15 @@ figcaption {
     .section4tile5 {
       background-color: $light-tile1;
   }*/
+.openday-tile {
+  float: left; }
+  .openday-tile p {
+    color: white; }
+    .openday-tile p a {
+      color: white;
+      list-style: none;
+      text-decoration: none; }
+
 .openday-tile--square {
   width: 200px;
   height: 200px; }
@@ -282,10 +291,13 @@ figcaption {
   height: 200px; }
 
 .openday-tile--lightgrey {
-  background-color: #00ff00; }
+  background-color: #76777b; }
+
+.openday-tile--lightgrey2 {
+  background-color: #9b9b9b; }
 
 .openday-tile--grey {
-  background-color: #ff0000; }
+  background-color: #4d4e50; }
 
 .openday-tile--darkgrey {
-  background-color: #0000ff; }
+  background-color: #343436; }

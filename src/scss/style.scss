@@ -357,7 +357,15 @@ figcaption{
 //BEM like naming for tiles
 //  Example markup: <div class="openday-tile openday-tile--square openday-tile--grey"></div>
     .openday-tile {
-
+      float: left;
+      p{
+        color: white;
+        a{
+          color: white;
+          list-style: none;
+          text-decoration: none;
+        }
+      }
     }
 
       .openday-tile--square {
@@ -374,6 +382,9 @@ figcaption{
       .openday-tile--lightgrey {
         background-color: $color-lightgrey;
       }
+      .openday-tile--lightgrey2 {
+        background-color: $color-lightgrey2;
+      }
 
       .openday-tile--grey {
         background-color: $color-grey;
@@ -382,6 +393,7 @@ figcaption{
       .openday-tile--darkgrey {
         background-color: $color-darkgrey;
       }
+      
     
     
 
