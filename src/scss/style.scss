@@ -257,12 +257,16 @@ figcaption{
   }
 }
     
-    .openday-content--tile{
-      li{
-        list-style-type: none;
-        color: $white-colour;
-      }
-    }
+    // .openday-tile{
+    //   li{
+    //     list-style-type: none;
+    //     color: $white-colour;
+    //   }
+    // }
+
+      
+
+    /*
     //secton 2 tiles
     .section2tile1 {
       width: 66%;
@@ -348,10 +352,37 @@ figcaption{
     }
     .section4tile5 {
       background-color: $light-tile1;
-  }
-    
-    
+  }*/
+  
+//BEM like naming for tiles
+//  Example markup: <div class="openday-tile openday-tile--square openday-tile--grey"></div>
+    .openday-tile {
 
+    }
+
+      .openday-tile--square {
+        width: 200px;
+        height: 200px;
+      }
+
+      .openday-tile--rectangle {
+        width: 400px; 
+        height: 200px;
+
+      }
+
+      .openday-tile--lightgrey {
+        background-color: $color-lightgrey;
+      }
+
+      .openday-tile--grey {
+        background-color: $color-grey;
+      }
+
+      .openday-tile--darkgrey {
+        background-color: $color-darkgrey;
+      }
+    
     
 
 
