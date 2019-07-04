@@ -1,3 +1,4 @@
+@import "utilities/accessibility";
 @import "components/colours";
 body{
  max-width: 1194px;
@@ -127,10 +128,23 @@ main {
     list-style-type: none;
     text-transform: uppercase;
     padding-bottom: 100px;
-    li{
-        margin: 10px 0;
-      }
+  
+
+    dt {
+      @extend .hide-visually;
+    }
 }
+
+  .openday-dates__label {
+    @extend .hide-visually;
+  }
+
+  .openday-dates__date {
+      margin-left: 0;
+      margin-bottom: 10px;
+    
+  }
+
 .openday-content--intro {
   padding-top: 35%;
     p:first-child{
@@ -160,7 +174,7 @@ width: 100%;
 h3.openday-title--quote {
 
         position: relative;
-        width: 250px;
+        width: auto;
         border: solid 12px $quote-colour;
         padding: 36px;
         font-style: italic;
@@ -170,7 +184,7 @@ h3.openday-title--quote {
           content: '';
           display: block;
           position: absolute;
-          left: 64px;
+          left: 5%;
           width: 0;
           height: 0;
           border-left: 40px solid transparent;
@@ -257,7 +271,7 @@ figcaption{
       background-color: $light-tile1;
     }
     .section2tile2 {
-      width: 33%;
+      width: 34%;
       height: 275px;
       background-color: $medium-tile-colour;
       float: left;
