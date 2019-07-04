@@ -196,11 +196,14 @@ figcaption {
 .openday-tile {
   float: left; }
   .openday-tile p {
-    color: white; }
+    color: white;
+    font-size: 24px; }
     .openday-tile p a {
       color: white;
       list-style: none;
       text-decoration: none; }
+  .openday-tile p.description {
+    font-size: 16px; }
 
 .openday-tile--square {
   width: 200px;

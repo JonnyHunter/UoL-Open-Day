@@ -268,14 +268,19 @@ figcaption{
 //  Example markup: <div class="openday-tile openday-tile--square openday-tile--grey"></div>
     .openday-tile {
       float: left;
-      p{
+      p {
         color: white;
-        a{
+        font-size: 24px;
+        a {
           color: white;
           list-style: none;
           text-decoration: none;
         }
       }
+      p.description {
+        font-size: 16px;
+      }
+      
     }
 
       .openday-tile--square {
@@ -302,6 +307,7 @@ figcaption{
 
       .openday-tile--darkgrey {
         background-color: $color-darkgrey;
+        
       }
       
     
