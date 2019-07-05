@@ -45,27 +45,30 @@ main {
   float: left; }
 
 .openday-section__column--1 {
-  width: 20%;
+  width: 25%;
   border: 2px solid gold; }
   .openday-section--intro .openday-section__column--1 {
     width: calc(100% / 3);
     border: 1px solid blue; }
 
 .openday-section__column--2 {
-  width: 75%;
+  width: 70%;
   margin-top: 60px;
-  margin-left: 20px;
+  margin-left: 30px;
   border: 1px solid lightgreen; }
   .openday-section--intro .openday-section__column--2 {
     width: 60%;
     border: 1px solid hotpink; }
+
+.openday-section__column--2--4 {
+  margin-top: 18%; }
 
 .openday-section__row {
   float: left;
   width: 80%;
   height: auto;
   border: 2px solid #fff342;
-  margin-left: 15%; }
+  margin-left: 20%; }
 
 .openday-image--intro {
   width: 100%; }
@@ -130,7 +133,8 @@ h3.openday-title--quote {
   width: auto;
   border: solid 12px #979797;
   padding: 36px;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: 40px; }
   h3.openday-title--quote:before, h3.openday-title--quote:after {
     content: '';
     display: block;
@@ -183,6 +187,9 @@ h3.openday-title--quote {
     right: 20px;
     z-index: -1; }
 
+figure {
+  margin-bottom: 0; }
+
 figcaption {
   background-color: #343436;
   color: #fff; }
@@ -191,6 +198,10 @@ figcaption {
   figcaption p {
     margin: 0;
     padding-bottom: 11px; }
+
+.openday-image--parkinson {
+  position: relative;
+  width: 48%; }
 
 .openday-tile {
   float: left; }
@@ -223,3 +234,8 @@ figcaption {
 
 .openday-tile--darkgrey {
   background-color: #343436; }
+
+.openday-tile--right {
+  float: right;
+  position: relative;
+  right: 20%; }
