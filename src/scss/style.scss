@@ -112,24 +112,23 @@ main {
 .openday-title {
   text-transform: uppercase;
   font-size: 36px;
-  display: inline-block;
-    padding-bottom: 5px;
-    position: relative;
-    margin: 0;
+  padding-bottom: 5px;
+  position: relative;
+  margin: 0;
 }
 
 .openday-title:before {
-        content: "";
-        position: absolute;
-        width: 15%;
-        height: 1px;
-        bottom: 0;
-        border-bottom: 5px solid #000;
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 5px solid #000;
 }
 
 .openday-title--intro {
     font-family:FreightSansProSemi;
-    font-size: 64px;
+    font-size: 4em;
 }
 
 .openday-dates {
@@ -138,7 +137,6 @@ main {
     text-transform: uppercase;
     padding-bottom: 100px;
   
-
     dt {
       @extend .hide-visually;
     }
@@ -167,50 +165,52 @@ main {
   height: 300px;
   width: 100%;
 }
+
 figure {
   margin: 0;
 }
+
 figcaption {
   background-color: grey;
   height: 20%;
   padding-bottom: 10px;
 }
 width: 100%;
-
 }
 
 //Styling of pull quotes
 h3.openday-title--quote {
 
-        position: relative;
-        width: auto;
-        border: solid 12px $quote-colour;
-        padding: 36px;
-        font-style: italic;
-        margin-top: 40px;
-        &:before,
-        &:after{
-          content: '';
-          display: block;
-          position: absolute;
-          left: 5%;
-          width: 0;
-          height: 0;
-          border-left: 40px solid transparent;
-          border-right: 40px solid transparent;
-          border-top: 55px solid;
-        }
-        
-        &:before {
-          bottom: -55px;
-          border-top-color: $quote-colour;
-        }
-        
-        &:after {
-          bottom: -35px;
-          border-top-color: #fff;
-        }
-      }
+  position: relative;
+  width: auto;
+  border: solid 12px $quote-colour;
+  padding: 36px;
+  font-style: italic;
+  margin-top: 40px;
+
+    &:before,
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      left: 5%;
+      width: 0;
+      height: 0;
+      border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+      border-top: 55px solid;
+    }
+    
+    &:before {
+      bottom: -55px;
+      border-top-color: $quote-colour;
+    }
+    
+    &:after {
+      bottom: -35px;
+      border-top-color: #fff;
+    }
+ }
 //Styling of brackets quote
 .openday-rectangle-quote {
   position: relative;
@@ -221,36 +221,37 @@ h3.openday-title--quote {
   padding-bottom: 16px;
   z-index: 0;
   height:auto;
-      h3{
-        font-size: 36px;
-        position: relative;
-        left: 25%;
-        padding: 0;
-        margin: 0;
-      }
-      dt{
-        position: relative;
-        left:25%;
-        font-size: 24px;
-        font-style: italic;
-      }
-      dd{
-        position:relative;
-        right: 5%;
-        font-size: 16px;
-      }
-  
-      &:before{
-        content: '';
-        display: block;
-        position: absolute;
-        background: white;
-        top: -12px;
-        bottom: -12px;
-        left: 20px;
-        right: 20px;
-        z-index: -1;
-  }
+
+    h3{
+      font-size: 36px;
+      position: relative;
+      left: 25%;
+      padding: 0;
+      margin: 0;
+    }
+    dt{
+      position: relative;
+      left:25%;
+      font-size: 24px;
+      font-style: italic;
+    }
+    dd{
+      position:relative;
+      right: 5%;
+      font-size: 16px;
+    }
+
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      background: white;
+      top: -12px;
+      bottom: -12px;
+      left: 20px;
+      right: 20px;
+      z-index: -1;
+ }
 }
 //Styling figures
 figure {
@@ -261,7 +262,6 @@ figcaption {
   color: $white-colour;
   h3{
     margin: 0;
-
   }
   p{
     margin: 0;
@@ -271,6 +271,21 @@ figcaption {
 .openday-image--parkinson {
   position: relative;
   width: 48%;
+}
+.map-placeholder {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  padding-top: 48.25%;
+  width: 47%;
+}
+.map-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
     
 //BEM like naming for tiles
