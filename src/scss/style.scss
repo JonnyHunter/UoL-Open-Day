@@ -1,5 +1,7 @@
+@import "../../node_modules/include-media/dist/include-media";
 @import "utilities/accessibility";
 @import "components/colours";
+@import "components/breakpoints";
 body{
  max-width: 1194px;
  margin: 0 auto;
@@ -61,11 +63,17 @@ main {
 
       border: 2px solid gold;
 
+      @include media("<tablet"){
+        width: 100%;
+      }
       .openday-section--intro &  {
         width: calc(100% / 3);
         
 
         border: 1px solid blue;
+          @include media("<tablet"){
+            width: 100%;
+          }
       }
     }
 
@@ -80,6 +88,9 @@ main {
         
         
         border: 1px solid hotpink;
+          @include media("<tablet") {
+            width: 100%; 
+          }
       }
     }
     //section 4 column 2
@@ -87,11 +98,10 @@ main {
       margin-top: 18%;
     }
     .openday-section__row {
-      float: left;
-      width: 80%;
+      float: right;
+      width: 73%;
       height: auto;
       border: 2px solid #fff342;
-      margin-left: 20%;
     }
 
 .openday-image--intro {
@@ -129,7 +139,11 @@ main {
 .openday-title--intro {
     font-family:FreightSansProSemi;
     font-size: 4em;
-}
+    
+    @include media("<tablet") {
+      font-size: 2em; 
+    }
+  }
 
 .openday-dates {
     color: $dates-colour;
@@ -140,6 +154,9 @@ main {
     dt {
       @extend .hide-visually;
     }
+    @include media("<tablet") {
+      padding: 0px; 
+    }
 }
 
   .openday-dates__label {
@@ -149,7 +166,9 @@ main {
   .openday-dates__date {
       margin-left: 0;
       margin-bottom: 10px;
-    
+      @include media("<tablet") {
+        margin: 1px; 
+      }
   }
 
 .openday-content--intro {
@@ -157,6 +176,10 @@ main {
     p:first-child{
         font-size: 24px;
       }
+      @include media("<tablet") {
+        padding-top: 0;
+      }
+
 }
 //video styling
 .openday-video-container {
@@ -342,8 +365,4 @@ figcaption {
         float: right;
         position: relative;
       }
-      
-    
-    
-
-
+ 

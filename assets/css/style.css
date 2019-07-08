@@ -47,9 +47,15 @@ main {
 .openday-section__column--1 {
   width: 25%;
   border: 2px solid gold; }
+  @media (max-width: 767px) {
+    .openday-section__column--1 {
+      width: 100%; } }
   .openday-section--intro .openday-section__column--1 {
     width: calc(100% / 3);
     border: 1px solid blue; }
+    @media (max-width: 767px) {
+      .openday-section--intro .openday-section__column--1 {
+        width: 100%; } }
 
 .openday-section__column--2 {
   width: 70%;
@@ -59,16 +65,18 @@ main {
   .openday-section--intro .openday-section__column--2 {
     width: 60%;
     border: 1px solid hotpink; }
+    @media (max-width: 767px) {
+      .openday-section--intro .openday-section__column--2 {
+        width: 100%; } }
 
 .openday-section__column--2--4 {
   margin-top: 18%; }
 
 .openday-section__row {
-  float: left;
-  width: 80%;
+  float: right;
+  width: 73%;
   height: auto;
-  border: 2px solid #fff342;
-  margin-left: 20%; }
+  border: 2px solid #fff342; }
 
 .openday-image--intro {
   width: 100%; }
@@ -99,21 +107,33 @@ main {
 .openday-title--intro {
   font-family: FreightSansProSemi;
   font-size: 4em; }
+  @media (max-width: 767px) {
+    .openday-title--intro {
+      font-size: 2em; } }
 
 .openday-dates {
   color: #343436;
   list-style-type: none;
   text-transform: uppercase;
   padding-bottom: 100px; }
+  @media (max-width: 767px) {
+    .openday-dates {
+      padding: 0px; } }
 
 .openday-dates__date {
   margin-left: 0;
   margin-bottom: 10px; }
+  @media (max-width: 767px) {
+    .openday-dates__date {
+      margin: 1px; } }
 
 .openday-content--intro {
   padding-top: 35%; }
   .openday-content--intro p:first-child {
     font-size: 24px; }
+  @media (max-width: 767px) {
+    .openday-content--intro {
+      padding-top: 0; } }
 
 .openday-video-container {
   width: 100%; }
