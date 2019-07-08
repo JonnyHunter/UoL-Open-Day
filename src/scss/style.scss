@@ -82,6 +82,11 @@ main {
       margin-top: 60px;
       margin-left: 30px;
       border: 1px solid lightgreen;
+        @include media("<tablet") {
+          width: 100%; 
+          margin: 0;
+        }
+      
 
       .openday-section--intro &  {
         width: 60%;
@@ -102,6 +107,11 @@ main {
       width: 73%;
       height: auto;
       border: 2px solid #fff342;
+      @include media("<tablet") {
+        width: 100%; 
+        margin-top: 10px;
+      }
+
     }
 
 .openday-image--intro {
@@ -210,7 +220,9 @@ h3.openday-title--quote {
   padding: 36px;
   font-style: italic;
   margin-top: 40px;
-
+    @include media("<tablet"){
+     margin-bottom: 48px;
+    }
     &:before,
     &:after{
       content: '';
@@ -279,6 +291,10 @@ h3.openday-title--quote {
 //Styling figures
 figure {
   margin-bottom: 0;
+  @include media("<tablet") {
+    width: 100%; 
+    margin-left: 0;
+  }
 }
 figcaption {
   background-color: $dark-grey;
@@ -294,6 +310,9 @@ figcaption {
 .openday-image--parkinson {
   position: relative;
   width: 48%;
+  @include media("<tablet") {
+    width: 100%; 
+  }
 }
 .map-placeholder {
   float: left;
@@ -301,6 +320,9 @@ figcaption {
   overflow: hidden;
   padding-top: 48.25%;
   width: 47%;
+  @include media("<tablet") {
+    display: none;
+  }
 }
 .map-iframe {
     position: absolute;
@@ -309,7 +331,12 @@ figcaption {
     width: 100%;
     height: 100%;
     border: 0;
-}
+    @include media("<tablet") {
+      display: none; 
+    }
+      
+    }
+
     
 //BEM like naming for tiles
 //  Example markup: <div class="openday-tile openday-tile--square openday-tile--grey"></div>
@@ -333,22 +360,38 @@ figcaption {
       .openday-tile--square {
         width: 33.3%;
         height: 200px;
+        @include media("<tablet") {
+          width: 100%;
+          height: auto;
+      }
       }
 
       .openday-tile--rectangle {
         width: 66.6%; 
         height: 200px;
+          @include media("<tablet") {
+          width: 100%;
+          height: auto;
+        }
       }
       .openday-tile--square__section3 {
         width: 25%;
+        @include media("<tablet") {
+          width: 100%;
+          height: auto;
+      }
       }
       .openday-tile--rectangle__section3 {
         width: 50%;
+        @include media("<tablet"){
+          width: 100%;
+          height: auto;
+      }
       }
 
       .openday-tile--lightgrey {
         background-color: $color-lightgrey;
-        transition: 0.5s;
+        transition: 1s;
         &:hover {
           background-color:darken( $color-lightgrey, 5% );
         }
@@ -379,5 +422,8 @@ figcaption {
       .openday-tile--right {
         float: right;
         position: relative;
+      }
+      .search-button {
+        color:white;
       }
  

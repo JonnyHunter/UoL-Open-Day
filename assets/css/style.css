@@ -62,6 +62,10 @@ main {
   margin-top: 60px;
   margin-left: 30px;
   border: 1px solid lightgreen; }
+  @media (max-width: 767px) {
+    .openday-section__column--2 {
+      width: 100%;
+      margin: 0; } }
   .openday-section--intro .openday-section__column--2 {
     width: 60%;
     border: 1px solid hotpink; }
@@ -77,6 +81,10 @@ main {
   width: 73%;
   height: auto;
   border: 2px solid #fff342; }
+  @media (max-width: 767px) {
+    .openday-section__row {
+      width: 100%;
+      margin-top: 10px; } }
 
 .openday-image--intro {
   width: 100%; }
@@ -154,6 +162,9 @@ h3.openday-title--quote {
   padding: 36px;
   font-style: italic;
   margin-top: 40px; }
+  @media (max-width: 767px) {
+    h3.openday-title--quote {
+      margin-bottom: 48px; } }
   h3.openday-title--quote:before, h3.openday-title--quote:after {
     content: '';
     display: block;
@@ -208,6 +219,10 @@ h3.openday-title--quote {
 
 figure {
   margin-bottom: 0; }
+  @media (max-width: 767px) {
+    figure {
+      width: 100%;
+      margin-left: 0; } }
 
 figcaption {
   background-color: #343436;
@@ -221,6 +236,9 @@ figcaption {
 .openday-image--parkinson {
   position: relative;
   width: 48%; }
+  @media (max-width: 767px) {
+    .openday-image--parkinson {
+      width: 100%; } }
 
 .map-placeholder {
   float: left;
@@ -228,6 +246,9 @@ figcaption {
   overflow: hidden;
   padding-top: 48.25%;
   width: 47%; }
+  @media (max-width: 767px) {
+    .map-placeholder {
+      display: none; } }
 
 .map-iframe {
   position: absolute;
@@ -236,6 +257,9 @@ figcaption {
   width: 100%;
   height: 100%;
   border: 0; }
+  @media (max-width: 767px) {
+    .map-iframe {
+      display: none; } }
 
 .openday-tile {
   float: left; }
@@ -252,20 +276,36 @@ figcaption {
 .openday-tile--square {
   width: 33.3%;
   height: 200px; }
+  @media (max-width: 767px) {
+    .openday-tile--square {
+      width: 100%;
+      height: auto; } }
 
 .openday-tile--rectangle {
   width: 66.6%;
   height: 200px; }
+  @media (max-width: 767px) {
+    .openday-tile--rectangle {
+      width: 100%;
+      height: auto; } }
 
 .openday-tile--square__section3 {
   width: 25%; }
+  @media (max-width: 767px) {
+    .openday-tile--square__section3 {
+      width: 100%;
+      height: auto; } }
 
 .openday-tile--rectangle__section3 {
   width: 50%; }
+  @media (max-width: 767px) {
+    .openday-tile--rectangle__section3 {
+      width: 100%;
+      height: auto; } }
 
 .openday-tile--lightgrey {
   background-color: #76777b;
-  transition: 0.5s; }
+  transition: 1s; }
   .openday-tile--lightgrey:hover {
     background-color: #6a6a6e; }
 
@@ -290,3 +330,6 @@ figcaption {
 .openday-tile--right {
   float: right;
   position: relative; }
+
+.search-button {
+  color: white; }
