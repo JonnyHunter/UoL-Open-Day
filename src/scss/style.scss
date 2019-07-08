@@ -214,7 +214,7 @@ h3.openday-title--quote {
 //Styling of brackets quote
 .openday-rectangle-quote {
   position: relative;
-  width: 220px;
+  width: 71%;
   border: solid 12px #000;
   padding: 24px;
   padding-top: 16px;
@@ -308,13 +308,19 @@ figcaption {
     }
 
       .openday-tile--square {
-        width: 200px;
+        width: 33.3%;
         height: 200px;
       }
 
       .openday-tile--rectangle {
-        width: 400px; 
+        width: 66.6%; 
         height: 200px;
+      }
+      .openday-tile--square__section3 {
+        width: 25%;
+      }
+      .openday-tile--rectangle__section3 {
+        width: 50%;
       }
 
       .openday-tile--lightgrey {
@@ -335,7 +341,6 @@ figcaption {
       .openday-tile--right {
         float: right;
         position: relative;
-        right: 20%;
       }
       
     
